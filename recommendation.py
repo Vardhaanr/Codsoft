@@ -73,7 +73,7 @@ class RoundedButton(tk.Canvas):
         self.itemconfig(self.rect, fill=self.bg_color)
 
 root = tk.Tk()
-root.title("Indian Movie Recommender")
+root.title("Indian Movies Recommender")
 root.geometry("560x600")
 root.configure(bg="#eaf2ff")
 
@@ -94,7 +94,7 @@ style.configure("TRadiobutton",
                 font=("Segoe UI", 11))
 
 ttk.Label(root,
-          text="🎬 Indian Movie Recommender",
+          text="🎬 Indian Movies Recommender",
           style="Header.TLabel").pack(pady=20)
 
 ttk.Label(root,
@@ -150,3 +150,4 @@ result_box.column("Movie", width=460, anchor="center")
 result_box.pack(pady=10)
 
 root.mainloop()
+
